@@ -188,9 +188,6 @@ class World:
         self.build()
 
 
-
-
-
 if __name__ == '__main__':
     world = World(width=3000, height=1000, seed=0)
     n1 = world.add_path_node(5, 5)
